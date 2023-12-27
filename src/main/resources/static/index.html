@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title> Spring in practice</title>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <h1>Automacorp</h1>
+
+    <p>
+        Welcome on this Automacorp project made by <a href="https://dev-mind.fr">Dev-Mind</a>. This application
+        is an example on how you can implement security in your app. You can explore this api with <a
+            href="/swagger-ui/index.html">Swagger</a>
+    </p>
+
+    <p>
+        This API is secured with Spring security, but you have 2 users for tests
+    </p>
+    <ul>
+        <li>a user called `user` with a password equals to `password`</li>
+        <li>a super user called `admin` with a password equals to `password`</li>
+    </ul>
+
+    <p><i> The <a href="/console">H2 console</a> is only available to super users</i></p>
+
+    <p class="text-center"><a class="btn btn-lg btn-primary btn-block" href="/logout" type="submit">Logout</a></p>
+</div>
+</body>
+</html>
